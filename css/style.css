@@ -319,7 +319,8 @@ pre {
 /* Mobile */
 @media (max-width: 500px) {
   .features-head .grid,
-  .features-sub-head .grid {
+  .features-sub-head .grid,
+  .docs-head .grid {
     grid-template-columns: 1fr;
   }
 

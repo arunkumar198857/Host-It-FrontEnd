@@ -328,6 +328,22 @@ pre {
     height: 110px;
   }
 
+  .footer .grid {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  .footer .grid {
+    gap: 30px;
+  }
+
+  .footer li {
+    margin: 1px 10px;
+  }
+  .social {
+    padding: 2px;
+    margin: 0 5px;
+  }
+
   .navbar .flex {
     flex-direction: column;
   }

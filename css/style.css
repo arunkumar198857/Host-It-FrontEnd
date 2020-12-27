@@ -318,15 +318,9 @@ pre {
 
 /* Mobile */
 @media (max-width: 500px) {
-  .grid,
-  .showcase .grid,
-  .stats .grid,
-  .cli .grid,
-  .cloud .grid,
-  .features-main .grid,
-  .docs-main .grid {
+  .features-head .grid,
+  .features-sub-head .grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
   }
 
   .navbar {
